@@ -1,0 +1,50 @@
+@media (min-width: 1111px) {
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .heading {
+    width: 40%;
+    h1 {
+      font-size: 3rem;
+      text-align: start;
+    }
+    p {
+      text-align: start;
+    }
+  }
+
+  .ratings {
+    width: 40%;
+    font-size: 0.9rem;
+    & > *:nth-child(2) {
+      transform: translateX(2rem);
+    }
+    & > *:nth-child(3) {
+      transform: translateX(4rem);
+    }
+
+    .rating-card {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      .stars {
+        margin: 0 0.5rem;
+      }
+    }
+  }
+
+  .reviews {
+    display: flex;
+    .card {
+      margin-right: 1rem;
+    }
+    & > *:nth-child(2) {
+      transform: translateY(2rem);
+    }
+    & > *:nth-child(3) {
+      transform: translateY(4rem);
+    }
+  }
+}
