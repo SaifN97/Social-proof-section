@@ -1,6 +1,6 @@
 main {
   width: 90%;
-  margin: 4rem auto;
+  margin: 6rem auto;
 }
 
 .heading {
@@ -14,6 +14,7 @@ main {
     color: $Dark-Grayish-Magenta;
     font-weight: 500;
     margin: 1.5rem 0;
+    line-height: 1.8;
   }
 }
 
@@ -72,6 +73,7 @@ main {
     .card-body {
       color: $Light-Grayish-Magenta;
       padding-top: 1em;
+      line-height: 1.8;
     }
   }
 }
